@@ -1,0 +1,14 @@
+C:\Users\ilruz\source\repos\BancAcc\BancAcc\bin\Debug\net8.0\BancAcc.exe
+C:\Users\ilruz\source\repos\BancAcc\BancAcc\bin\Debug\net8.0\BancAcc.deps.json
+C:\Users\ilruz\source\repos\BancAcc\BancAcc\bin\Debug\net8.0\BancAcc.runtimeconfig.json
+C:\Users\ilruz\source\repos\BancAcc\BancAcc\bin\Debug\net8.0\BancAcc.dll
+C:\Users\ilruz\source\repos\BancAcc\BancAcc\bin\Debug\net8.0\BancAcc.pdb
+C:\Users\ilruz\source\repos\BancAcc\BancAcc\obj\Debug\net8.0\BancAcc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ilruz\source\repos\BancAcc\BancAcc\obj\Debug\net8.0\BancAcc.AssemblyInfoInputs.cache
+C:\Users\ilruz\source\repos\BancAcc\BancAcc\obj\Debug\net8.0\BancAcc.AssemblyInfo.cs
+C:\Users\ilruz\source\repos\BancAcc\BancAcc\obj\Debug\net8.0\BancAcc.csproj.CoreCompileInputs.cache
+C:\Users\ilruz\source\repos\BancAcc\BancAcc\obj\Debug\net8.0\BancAcc.dll
+C:\Users\ilruz\source\repos\BancAcc\BancAcc\obj\Debug\net8.0\refint\BancAcc.dll
+C:\Users\ilruz\source\repos\BancAcc\BancAcc\obj\Debug\net8.0\BancAcc.pdb
+C:\Users\ilruz\source\repos\BancAcc\BancAcc\obj\Debug\net8.0\BancAcc.genruntimeconfig.cache
+C:\Users\ilruz\source\repos\BancAcc\BancAcc\obj\Debug\net8.0\ref\BancAcc.dll
