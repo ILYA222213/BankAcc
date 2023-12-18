@@ -1,27 +1,24 @@
-﻿using System;
-using System.Threading;
-
 namespace BankAccount
 {
     class Account
     {
-        private decimal balance;
+        private decimal balance; // Поле для хранения баланса счета
 
         public Account(decimal initialBalance)
         {
-            balance = initialBalance;
+            balance = initialBalance; // Инициализация поля баланса счета значением initialBalance
         }
 
         public decimal Balance
         {
-            get { return balance; }
+            get { return balance; } // Свойство для доступа к текущему балансу счета (только для чтения)
         }
 
         public void Deposit(decimal amount)
         {
             // Имитация задержки в операции пополнения
             Thread.Sleep(1000);
-            balance += amount;
+            balance += amount; // Увеличение баланса на указанную сумму
             Console.WriteLine($"Пополнение на {amount} руб. Баланс: {balance} руб.");
         }
 
@@ -29,12 +26,12 @@ namespace BankAccount
         {
             if (balance >= amount)
             {
-                balance -= amount;
+                balance -= amount; // Уменьшение баланса на указанную сумму
                 Console.WriteLine($"Снятие {amount} руб. Баланс: {balance} руб.");
             }
             else
             {
-                Console.WriteLine("Недостаточно средств на счете.");
+                Console.WriteLine("Недостаточно средств на счете."); // Вывод сообщения об ошибке, если недостаточно средств на счете
             }
         }
 
@@ -52,9 +49,9 @@ namespace BankAccount
 
     class Program
     {
-        static void Main(string[] args)
+        static void Main(string args)
         {
-            Account account = new Account(1000m);
+            Account account = new Account(1000m); // Создание объекта класса Account с начальным балансом 1000 руб.
 
             // Запуск отдельного потока для пополнения счета
             Thread depositThread = new Thread(() => DepositRandomAmount(account));
